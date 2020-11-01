@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <link rel="stylesheet" href="registration.css">
+    <body>
+      <div class="container">
+          <form id="form1">
+              <h2 class="maintitle">Student Info</h2>
+              <input type="text" class="gr" name="gr" placeholder="Enter GR. No"  required><br>
+              <input type="text" class="name"  placeholder="Enter Full Name [According to LC]"  required><br>
+              <input type="radio" class="genin" id="male" name ="gender" value="male">
+              <label for="male">Male</label><br>
+              <input type="radio"  class="genin"  id="female" name ="gender" value="female">
+              <label for="female">Female</label><br>
+              <input type="text" class="acs"  placeholder="Adharcard Number"  required><br>
+              <textarea rows="3" class="addin" cols="50" placeholder="Enter Address" required></textarea><br>
+              <input type="email" id="em" name="em" class="emailin" placeholder="abc@gmail.com">
+
+              <div class="btn">
+                <button type="button" id="next1">Next</button>
+              </div>
+          </form>
+
+          <form id="form2">
+             <h2 class="maintitle">Father Info</h2>
+             <input type="text" class="name"   name="fn" placeholder="Enter Full Name [According to Adhar Card]"  required><br>
+             <input type="text" class="acf"  name="acf" placeholder="Adharcard Number"  required><br>
+             <textarea rows="3" class="addin" cols="30" placeholder="Enter Permenant Address" required></textarea><br>
+             <input type="email"  class="emailin" placeholder="abc@gmail.com" required><br>
+             <input type="text" placeholder="Phone Number" maxlength="10" required><br>
+             <input  type="text" placeholder="Occupation" required><br>
+             <textarea rows="3" class="addin" cols="30" placeholder="Enter work Address" required></textarea><br>
+            
+
+             <div class="btn">
+                 <button type="button" id="back1">Back</button>
+                 <button type="button" id="next2">Next</button>
+             </div>
+           </form>
+
+           <form id="form3">
+            <h2 class="maintitle">Mother Info</h2>
+            <input type="text" class="name"   name="fn" placeholder="Enter Full Name [According to Adhar Card]"  required><br>
+            <input type="text" class="acf"  name="acf" placeholder="Adharcard Number"  required><br>
+            <textarea rows="3" class="addin" cols="30" placeholder="Enter Permenant Address" required></textarea><br>
+            <input type="email"  class="emailin" placeholder="abc@gmail.com" required><br>
+            <input type="text" placeholder="Phone Number" maxlength="10" required><br>
+            <input  type="text" placeholder="Occupation" required><br>
+            <textarea rows="3" class="addin" cols="30" placeholder="Enter work Address" required></textarea><br>
+           
+
+            <div class="btn">
+                <button type="button" id="back2">Back</button>
+                <button type="submit" id="next3">Submit</button>
+            </div>
+          </form>
+
+          <div class="step-row">
+              <div id="backcolor"></div>
+              <div class="step-col"><small>Step 1</small></div>
+              <div class="step-col"><small>Step 2</small></div>
+              <div class="step-col"><small>Step 3</small></div>
+          </div>
+      </div>
+
+    </body>
+</html>
+
+<script>
+     var form1 = document.getElementById("form1");
+     var form2 = document.getElementById("form2");
+     var form3 = document.getElementById("form3");
+
+     var next1 = document.getElementById("next1");
+     var back1 = document.getElementById("back1");
+     var next2 = document.getElementById("next2");
+     var back2 = document.getElementById("back2");
+     
+     var backcolor = document.getElementById("backcolor");
+
+     next1.onclick = function(){
+         form1.style.left="-450px";
+         form2.style.left="40px";
+         backcolor.style.width= "300px";
+     }
+     back1.onclick = function(){
+         form1.style.left="40px";
+         form2.style.left="450px";
+         backcolor.style.width= "150px";
+     }
+     next2.onclick = function(){
+         form2.style.left="-450px";
+         form3.style.left="40px";
+         backcolor.style.width= "450px";
+     }
+     back2.onclick = function(){
+         form2.style.left="40px";
+         form3.style.left="450px";
+         backcolor.style.width= "300px";
+     }
+</script>

@@ -1,0 +1,23 @@
+/*Academic section*/
+.H1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(39, 17, 235);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35;
+    padding-top: 30px;
+}
+.photo{
+    height: 250;
+    width: 400;
+    float: left;
+    margin-right: 10px;
+}
+
+.P1{
+    color: white;
+    margin-bottom: 35px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

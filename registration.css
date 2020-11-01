@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to top ,rgba(131, 150, 235, 0.719) ,  rgba(30, 64, 216, 0.973));
+}
+.container{
+    width: 450px;
+    height: 605px;
+    margin: 0.5% auto;
+    background-color:white;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+    color: rgba(13, 52, 223, 0.973);
+    margin-top: -30px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container form{
+    width: 350px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    transition: 0.5s;
+}
+form input{
+    width: 370px;
+    margin-top:18px ;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid black;
+    background-color:rgba(17, 17, 252, 0.219);
+    padding: 9px;
+}
+.genin{
+    width: 10px;
+}
+.addin{
+    width: 370px;
+    margin-top:18px ;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid black;
+    background-color:rgba(17, 17, 252, 0.219);
+    padding: 9px;
+}
+.btn{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background-color: rgba(76, 103, 221, 0.973);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgba(224, 33, 106, 0.644);
+  
+}
+#form2{
+    left: 450px;
+}
+#form3{
+    left: 450px;
+}
+.step-row{
+    width: 450px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+}
+.step-col{
+    width: 150px;
+    text-align: center;
+    color:rgba(76, 103, 221, 0.973);
+    position: relative;
+    font-size: 20px;
+}
+#backcolor{
+    position: absolute;
+    height: 100%;
+    width: 150px;
+    background-color: rgba(224, 33, 106, 0.644);
+    transition: 1s;
+}
+#backcolor::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top:0;
+    border-left: 20px solid rgba(224, 33, 106, 0.644);
+}

@@ -1,0 +1,66 @@
+body{
+    background-color: rgba(76, 103, 221, 0.973);
+}
+.photo{
+    width: 700px;
+    height: 550px;
+    margin-top: 22px;
+    margin-left: 20px;
+    border: 4px solid white;
+    float: left;
+    margin-right:90px;
+}
+.H1{
+    color: white;
+    font-size: 40px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.H3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.H4{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sub{
+    width: 250px;
+    height: 70px;
+    background-color: rgba(247, 44, 8, 0.918);
+    border-radius: 10px 10px 10px 10px ;
+    border:1px;
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    box-shadow:5px 6px rgba(0, 0, 0, 0.270);
+    font-weight: bolder;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.sub:hover{
+    background-color:white ;
+    color:;
+}
+.forget{
+    margin-top: 20px;
+}
+.myButton {
+	box-shadow: 5px 6px rgba(27, 27, 63, 0.74);
+	background: rgba(247, 44, 8, 0.918);
+	background-color: rgba(247, 44, 8, 0.918);
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+    color:#ffffff;
+    width: 130;
+    
+	font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding:12px ;
+    font-weight:bold;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, white 5%, #79bbff 100%);
+    background-color:white;
+    color: tomato;
+}

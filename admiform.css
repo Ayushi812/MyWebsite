@@ -1,0 +1,94 @@
+body{
+    background-color: rgba(76, 103, 221, 0.973);
+  } 
+  #regForm {
+    background-color:white;
+      margin: 100px auto;
+      padding: 40px;
+      width: 130px;
+      min-width: 330px;
+    }
+    .H1{
+        text-align: center; 
+        color:rgba(76, 103, 221, 0.973);
+    }
+    
+    /*input fields */
+    input {
+      padding: 10px;
+      width: 100%;
+      font-size: 17px;
+      font-family: Raleway;
+      border:none;
+      outline: none;
+      border-bottom: 2px solid black;
+      background-color:rgba(17, 17, 252, 0.219);
+    }
+    
+    /* error */
+    input.invalid {
+      background-color:rgba(224, 154, 154, 0.726);
+    }
+    
+    /* Hide all steps */
+    .tab {
+      display: none;
+    }
+    
+    /* Make circles that show the steps of the form*/
+    .step {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color:darkblue;
+      border: none;
+      border-radius:8px;
+      display: inline-block;
+      opacity: 0.5;
+    }
+    
+    /* Mark the active step */
+    .step.active {
+      opacity: 1;
+    }
+    
+    /* Mark the steps that are finished and valid */
+    .step.finish {
+      background-color:blue;
+    }
+    #nextbtn{
+        background-color:rgba(35, 71, 228, 0.973);
+        border-radius: 12px;
+        border: none;
+        height: 50px;
+        width: 100px;
+        color: white;
+        outline: none;
+    }
+    #nextbtn:hover{
+        background-color:rgba(228, 20, 124, 0.973);
+        border-radius: 12px;
+        border: none;
+        height: 50px;
+        width: 100px;
+        color: white;
+        outline: none;
+    }
+    #prevbtn{
+      background-color:rgba(35, 71, 228, 0.973);
+        border-radius: 12px;
+        border: none;
+        height: 50px;
+        width: 100px;
+        color: white;
+        outline: none;
+    }
+    #prevbtn:hover{
+      background-color:rgba(228, 20, 124, 0.973);
+      border-radius: 12px;
+        border: none;
+        height: 50px;
+        width: 100px;
+        color: white;
+        outline: none;
+    }

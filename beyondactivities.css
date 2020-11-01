@@ -1,0 +1,69 @@
+body{
+   background-image:url(images/be3.jpg);
+   background-repeat: no-repeat;
+   background-size: 1400px 1440px;
+   
+   
+  
+    
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+.button{
+    border:none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 50px -4px 0 -1px;
+    height: 80px;
+    width: 184px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button1{
+    background-color: rgb(218, 76, 107);
+}
+.button1:hover{
+    background-color: rgb(173, 121, 129);
+
+}
+.button2{
+    background-color:skyblue;
+}
+.button2:hover{
+    background-color: rgb(187, 213, 223);
+}
+.button3{
+    background-color:green;
+}
+.button3:hover{
+    background-color: rgb(147, 229, 147);
+}
+.button4{
+    background-color:brown;
+}
+.button4:hover{
+    background-color: rgb(212, 127, 127);
+}
+.button5{
+    background-color:goldenrod;
+}
+.button5:hover{
+    background-color: rgb(241, 211, 134);
+}
+.button6{
+    background-color:blue;
+}
+.button6:hover{
+    background-color: rgb(92, 151, 219) ;
+}
+h2 {
+    font-size: 25;color: rgb(32, 94, 209);
+}
